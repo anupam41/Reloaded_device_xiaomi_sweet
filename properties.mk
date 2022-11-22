@@ -369,3 +369,8 @@ persist.debug.wfd.enable=1 \
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
 zygote.critical_window.minute=10
+
+# Reloaded Specific
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+ro.reloaded.device_maintainer=Anupam Samanta \
+ro.reloaded.device_maintainer_url=https://t.me/anupam41
